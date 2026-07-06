@@ -1,0 +1,27 @@
+2 1
+job = MD
+MD_detail = 3 50000 1 300, 300
+in.atom = atom.config
+ACCURACY = High
+Ecut = 40
+Ecut2 = 160
+VDW = DFT-D3
+LONDON_RCUT = 80
+#in.psp1 =  ~/NCPP/SG15.PBE/Pd.SG15.PBE.UPF
+in.psp1 =  ~/NCPP/SG15.PBE/Pt.SG15.PBE.UPF
+in.psp2 =  ~/NCPP/SG15.PBE/H.SG15.PBE.UPF
+in.psp3 =  ~/NCPP/SG15.PBE/O.SG15.PBE.UPF
+mp_n123 = 1 1 1 0 0 0
+xcfunctional = PBE
+E_error = 1.000000e-05
+Rho_error = 1.000000e-05
+WG_error = 0.0
+SCF_ITER0_1 =    6   4    3    0.0000     0.1200    2
+SCF_ITER0_2 =  124   4    3    1.0000     0.1200    2
+SCF_ITER1_1 =   70   4    3    1.0000     0.1200    2
+Fix_Fermi = T -4.24 0.05 1.00
+FIX_FERMI_SPECIAL = T, 10, 0.05
+Pulay_mix_opt =  60, 1, 1, 0.0001, 1,0
+OUT.SOLVENT_CHARGE = T
+CHARGE_DECOMP = T 
+
